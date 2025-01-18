@@ -40,12 +40,12 @@ class DocumentSearchApp:
                       background=[('active', '#FF7777')])  # 按钮悬停色
         
         # API配置
-        self.api_base = "https://api.rcouyi.com/v1"
-        self.openai_api_key = "sk-ChUicsjPPGj5HruI2359B33053234676A0EcE64a3a8d6057"
+        self.api_base = ""
+        self.openai_api_key = ""
 
         # Google Search API 配置
-        self.google_api_key = "AIzaSyCOWF13qUBUPuyqYiCnipQlUr-bJRftGIY"  # 已替换为你的 Google API Key
-        self.google_cse_id = "164997181322b4b05"  # 已替换为你的 Google Custom Search Engine ID
+        self.google_api_key = ""  # 已替换为你的 Google API Key
+        self.google_cse_id = ""  # 已替换为你的 Google Custom Search Engine ID
         
         # 存储提取的标题和内容
         self.titles = []
